@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Gladdis_Chapter6_SafestDriving_Problem4
+PROJECTNAME=Gladdis_Chapter6_CelsiusTempTable_Problem7
 
 # Active Configuration
 DEFAULTCONF=Debug
