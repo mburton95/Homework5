@@ -2,7 +2,9 @@
  * File:   main.cpp
  * Author: Marcus Burton   
  * Created on November 11th       
- * Purpose: To simulate coin toss odds1                                  
+ * Purpose: To simulate coin toss odds
+ * NOTES: This program only shows differences once you toss 100,000 times..
+ * no idea why                                 
  */
 
 //System Libraries
