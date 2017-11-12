@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=CPPTemplate_1
+PROJECTNAME=Gladdis_Chapter6_Problem4_SafestDriving
 
 # Active Configuration
 DEFAULTCONF=Debug
