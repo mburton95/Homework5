@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     int number,times;
     int heads=0;
     int tails=0;
-    cout<<"How many times shall you toss the coin..?"<<endl;
+    cout<<"How many times shall you toss the coin(choose a value higher than 100,000 for best odds..?"<<endl;
     cin>>times;
     for(int i=0;i<times;i++)
     {

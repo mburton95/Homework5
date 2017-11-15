@@ -11,6 +11,7 @@
 #include <iostream>     //Input/Output Stream Library
 #include <ctime>        //for random number genrator
 #include <cmath>
+#include <iomanip>
 
 using namespace std;    //Standard Name-space under which System Libraries reside
 
@@ -22,6 +23,7 @@ using namespace std;    //Standard Name-space under which System Libraries resid
 float presentValue(float,float,int);
 //Execution Begins Here!
 int main(int argc, char** argv) {
+    cout<<fixed<<setprecision(2)<<showpoint;
     float FV;
     float I;
     int numYR;
@@ -29,8 +31,10 @@ int main(int argc, char** argv) {
     cout<<"Please enter the value you want, then the interest rate, then the number of years you plan to wait"<<endl;
     cin>>FV;
     cin>>I;
+   
     cin>>numYR;
     float Pres=presentValue(FV,I,numYR);
+    
     cout<<"You must deposit $"<<Pres<<endl;
 }
 

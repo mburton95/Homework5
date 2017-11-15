@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
  * Created on Sept 25th, 2017, 9:05 PM
- * Purpose:  Creating a class template
+ * Purpose:  Future Value loan program for compounded interest
  */
 
 //System Libraries
